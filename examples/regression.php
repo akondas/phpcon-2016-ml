@@ -13,3 +13,7 @@ $regression = new LeastSquares();
 $regression->train($samples, $targets);
 
 
+$regression->getCoefficients();
+$regression->getIntercept();
+
+$regression->predict([35000]);
