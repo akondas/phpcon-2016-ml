@@ -16,4 +16,6 @@ $regression->train($samples, $targets);
 $regression->getCoefficients();
 $regression->getIntercept();
 
-$regression->predict([35000]);
+$price = $regression->predict([35000]);
+
+echo sprintf("Price: %s\n", $price);

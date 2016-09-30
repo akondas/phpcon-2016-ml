@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-ai/php-ml.git",
-                "reference": "84af842f0442101af64679b09e23922d04bde1dd"
+                "reference": "349ea16f01bced107daf2fa070fb2b27517e8c2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/84af842f0442101af64679b09e23922d04bde1dd",
-                "reference": "84af842f0442101af64679b09e23922d04bde1dd",
+                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/349ea16f01bced107daf2fa070fb2b27517e8c2b",
+                "reference": "349ea16f01bced107daf2fa070fb2b27517e8c2b",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "machine learning",
                 "pattern recognition"
             ],
-            "time": "2016-09-27 18:07:21"
+            "time": "2016-09-30 12:02:08"
         }
     ],
     "packages-dev": [

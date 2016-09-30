@@ -10,7 +10,7 @@ use Phpml\SupportVectorMachine\Kernel;
 
 require 'vendor/autoload.php';
 
-$dataset = new CsvDataset('examples/beers.csv', 3);
+$dataset = new CsvDataset('examples/beers-score.csv', 3);
 $split = new StratifiedRandomSplit($dataset, 0.1);
 
 $classifier = new SVC(Kernel::RBF);
