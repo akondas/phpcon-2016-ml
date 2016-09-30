@@ -4,28 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b5cff46172b2c1ac9eff2c88b3892c7a",
-    "content-hash": "14fbe2db4df49f7cfc840e712a05720b",
+    "hash": "b19a46d1742bcf6fd8276f8514aa7a75",
+    "content-hash": "cc0c5035eded4886749839a23d309a04",
     "packages": [
         {
             "name": "php-ai/php-ml",
-            "version": "v0.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-ai/php-ml.git",
-                "reference": "41ac2e33ae14811bb239872fd6c98cd3f16505bb"
+                "reference": "84af842f0442101af64679b09e23922d04bde1dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/41ac2e33ae14811bb239872fd6c98cd3f16505bb",
-                "reference": "41ac2e33ae14811bb239872fd6c98cd3f16505bb",
+                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/84af842f0442101af64679b09e23922d04bde1dd",
+                "reference": "84af842f0442101af64679b09e23922d04bde1dd",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.2"
+                "phpunit/phpunit": "^5.5"
             },
             "type": "library",
             "autoload": {
@@ -52,7 +52,7 @@
                 "machine learning",
                 "pattern recognition"
             ],
-            "time": "2016-08-14 17:17:12"
+            "time": "2016-09-27 18:07:21"
         }
     ],
     "packages-dev": [
@@ -208,16 +208,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd"
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/9270140b940ff02e58ec577c237274e92cd40cdd",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/8331b5efe816ae05461b7ca1e721c01b46bafb3e",
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2016-06-10 09:48:41"
+            "time": "2016-09-30 07:12:33"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -1361,7 +1361,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "php-ai/php-ml": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
